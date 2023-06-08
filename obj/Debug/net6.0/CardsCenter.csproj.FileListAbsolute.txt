@@ -1,0 +1,15 @@
+C:\Users\karin\OneDrive\Pulpit\CardsCenter\CardsCenter\bin\Debug\net6.0\CardsCenter.exe
+C:\Users\karin\OneDrive\Pulpit\CardsCenter\CardsCenter\bin\Debug\net6.0\CardsCenter.deps.json
+C:\Users\karin\OneDrive\Pulpit\CardsCenter\CardsCenter\bin\Debug\net6.0\CardsCenter.runtimeconfig.json
+C:\Users\karin\OneDrive\Pulpit\CardsCenter\CardsCenter\bin\Debug\net6.0\CardsCenter.dll
+C:\Users\karin\OneDrive\Pulpit\CardsCenter\CardsCenter\bin\Debug\net6.0\CardsCenter.pdb
+C:\Users\karin\OneDrive\Pulpit\CardsCenter\CardsCenter\obj\Debug\net6.0\CardsCenter.csproj.AssemblyReference.cache
+C:\Users\karin\OneDrive\Pulpit\CardsCenter\CardsCenter\obj\Debug\net6.0\CardsCenter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karin\OneDrive\Pulpit\CardsCenter\CardsCenter\obj\Debug\net6.0\CardsCenter.AssemblyInfoInputs.cache
+C:\Users\karin\OneDrive\Pulpit\CardsCenter\CardsCenter\obj\Debug\net6.0\CardsCenter.AssemblyInfo.cs
+C:\Users\karin\OneDrive\Pulpit\CardsCenter\CardsCenter\obj\Debug\net6.0\CardsCenter.csproj.CoreCompileInputs.cache
+C:\Users\karin\OneDrive\Pulpit\CardsCenter\CardsCenter\obj\Debug\net6.0\CardsCenter.dll
+C:\Users\karin\OneDrive\Pulpit\CardsCenter\CardsCenter\obj\Debug\net6.0\refint\CardsCenter.dll
+C:\Users\karin\OneDrive\Pulpit\CardsCenter\CardsCenter\obj\Debug\net6.0\CardsCenter.pdb
+C:\Users\karin\OneDrive\Pulpit\CardsCenter\CardsCenter\obj\Debug\net6.0\CardsCenter.genruntimeconfig.cache
+C:\Users\karin\OneDrive\Pulpit\CardsCenter\CardsCenter\obj\Debug\net6.0\ref\CardsCenter.dll
