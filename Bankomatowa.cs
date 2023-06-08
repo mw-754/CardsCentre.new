@@ -47,4 +47,4 @@ public class Bankomatowa:Karta
             Console.WriteLine("Niepoprawna kwota!");
         }
     }
-}
+} lubie pp
