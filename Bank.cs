@@ -1,26 +1,26 @@
 ﻿namespace CardsCenter;
 public class Bank
 {
-    private List<KlientBanku> listaklientow;
+    private List<KlientBanku> listaKlientow;
 
     public Bank()
     {
-        listaklientow = new List<KlientBanku>();
+        listaKlientow = new List<KlientBanku>();
     }
     
     public void DodajKlienta(KlientBanku klient)
     {
-        listaklientow.Add(klient);
+        listaKlientow.Add(klient);
     }
 
     public void UsunKlienta(KlientBanku klient)
     {
-        listaklientow.Remove(klient);
+        listaKlientow.Remove(klient);
     }
     
-    public List<Konto> GetKlienci()
+    public List<KlientBanku> GetKlienci()
     {
-        return listaklientow;
+        return listaKlientow;
     }
     
 }

@@ -18,6 +18,8 @@ public abstract class Karta
     public abstract String GetNrKarty();
 
     public abstract double GetLimit();
+    
+    public abstract double GetSaldoKarty();
 
     public abstract void WyplacZKarty(double kwota);
 

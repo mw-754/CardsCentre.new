@@ -1,10 +1,13 @@
-﻿namespace CardsCenter;
+﻿using System.Runtime.InteropServices;
+
+namespace CardsCenter;
 
 public class Konto
 {
     private String nrKonta;
     private double saldo;
     private Random rnk = new Random();
+    private List<Karta> listKart;
 
     public Konto()
     {
@@ -25,6 +28,18 @@ public class Konto
     {
         return nrKonta;
     }
+
+    public void DodajKarte(Karta karta)
+    {
+        listKart.Add(karta);
+    }
+    
+    public void UsunKarte(Karta karta)
+    {
+        listKart.Remove(karta);
+    }
+    
+    public 
 
     void Wyplac(double kwota)
     {

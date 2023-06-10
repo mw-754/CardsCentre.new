@@ -4,9 +4,10 @@ public class Kredytowa:Karta
 {
     protected double dlug, limit;
 
-    public Kredytowa(String nrkarty) : base(nrKarty)
+    public Kredytowa(String nrkarty, double lim) : base(nrKarty)
     {
         dlug = 0;
+        limit = lim;
     }
 
     public override String GetNrKarty()
@@ -17,6 +18,11 @@ public class Kredytowa:Karta
     public override double GetLimit()
     {
         return limit;
+    }
+    
+    public override double GetSaldoKarty()
+    {
+        return dlug;
     }
 
     public override void WyplacZKarty(double kwota)
