@@ -5,9 +5,10 @@ namespace CardsCenter;
 public class Debetowa:Karta
 {
     protected double saldoKarty, limit;
-    public Debetowa(String nrkarty, double saldokarty) : base(nrKarty)
+    public Debetowa(String nrkarty, double saldokarty, double lim) : base(nrKarty)
     {
         saldoKarty = saldokarty;
+        limit = lim;
     }
 
     public override String GetNrKarty()
@@ -18,6 +19,11 @@ public class Debetowa:Karta
     public override double GetLimit()
     {
         return limit;
+    }
+
+    public override double GetSaldoKarty()
+    {
+        return saldoKarty;
     }
 
     public override void WyplacZKarty(double kwota)

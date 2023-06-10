@@ -18,6 +18,11 @@ public class Bankomatowa:Karta
         return limit;
     }
 
+    public override double GetSaldoKarty()
+    {
+        return saldoKarty;
+    }
+
     public override void WyplacZKarty(double kwota)
     {
         if (kwota <= limit)
