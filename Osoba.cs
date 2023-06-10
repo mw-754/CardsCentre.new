@@ -1,5 +1,4 @@
 ﻿namespace CardsCenter;
-
 public class Osoba : KlientBanku
 {
     protected string imie, nazwisko, PESEL;
@@ -10,4 +9,5 @@ public class Osoba : KlientBanku
         nazwisko = nazwisko1;
         PESEL = PESEL1;
     }
+    
 }

@@ -1,5 +1,4 @@
 ﻿namespace CardsCenter;
-
 public class Bank
 {
     private List<KlientBanku> listaklientow;
@@ -8,6 +7,7 @@ public class Bank
     {
         listaklientow = new List<KlientBanku>();
     }
+    
     public void DodajKlienta(KlientBanku klient)
     {
         listaklientow.Add(klient);
@@ -17,4 +17,10 @@ public class Bank
     {
         listaklientow.Remove(klient);
     }
+    
+    public List<Konto> GetKlienci()
+    {
+        return listaklientow;
+    }
+    
 }
